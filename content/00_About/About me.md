@@ -2,13 +2,16 @@
 
 テクノトラックメーカーのSo Kobayashi = Begard
 
-- **So Kobayashi** = deep / emotional techno  
-  [https://www.beatport.com/artist/so-kobayashi/63404](https://www.beatport.com/artist/so-kobayashi/63404)
+- **So Kobayashi** = deep / emotional techno
+	- [https://www.beatport.com/artist/so-kobayashi/63404](https://www.beatport.com/artist/so-kobayashi/63404)
   
 - **Begard** = dark / hard techno 
-   [https://www.beatport.com/artist/begard/663747](https://www.beatport.com/artist/begard/663747)
-
-available on Traxsource, iTunes Store, Spotify etc.
+	- [https://www.beatport.com/artist/begard/663747](https://www.beatport.com/artist/begard/663747)
+	  
+- bandcamp
+	- [https://sktmusic.bandcamp.com](https://sktmusic.bandcamp.com/)
+	  
+also available Traxsource, iTunes Store, Spotify etc.
 
 ## So Kobayashiプロフィール
 
