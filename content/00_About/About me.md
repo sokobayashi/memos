@@ -5,7 +5,7 @@
 - **So Kobayashi** = deep / emotional techno  
   [https://www.beatport.com/artist/so-kobayashi/63404](https://www.beatport.com/artist/so-kobayashi/63404)
   
-- **Begard** = dark / hard techno
+- **Begard** = dark / hard techno 
    [https://www.beatport.com/artist/begard/663747](https://www.beatport.com/artist/begard/663747)
 
 available on Traxsource, iTunes Store, Spotify etc.
