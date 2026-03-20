@@ -6,7 +6,7 @@
   [https://www.beatport.com/artist/so-kobayashi/63404](https://www.beatport.com/artist/so-kobayashi/63404)
   
 - **Begard** = dark / hard techno
-  [https://www.beatport.com/artist/begard/663747](https://www.beatport.com/artist/begard/663747)
+   [https://www.beatport.com/artist/begard/663747](https://www.beatport.com/artist/begard/663747)
 
 available on Traxsource, iTunes Store, Spotify etc.
 
@@ -23,7 +23,7 @@ He resumed music production in 2017, and in 2018 returned to the club scene with
 
 Drawing on his accumulated experience, he also offers mastering services, primarily for close collaborators.
 
-## Begardプロフィール] 
+## Begardプロフィール
   
 Begard a.k.a. So Kobayashiは2004年頃より本格的にDJ及びトラックメイクを開始。  
 当時東京で活躍していたRennie Fosterへ渡したデモがきっかけで2007年にDirtyWorksよりStrolling Blue EPをリリース。しかしテクノシーンのミニマルテクノ化と共に沈黙期間に入る。2017年より再びトラックメイクをスタートし、Undlivered Recordsからのリリースを皮切りによりハードな音を探究するBegard名義を開始。自身の音を追い求めている。
