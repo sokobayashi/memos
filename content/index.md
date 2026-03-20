@@ -1,10 +1,5 @@
 ---
-title: Welcome to Quartz
+title: So Kobayashi Notes
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-test
-test
-test
+So Kobayashi memo.
+See explorer on left side.
