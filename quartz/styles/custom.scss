@@ -1,3 +1,246 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// quartz/styles/custom.scss — Detroit Techno Theme (JP Edition)
+// quartz.config.ts の theme 設定と合わせて使用してください。
+// ============================================================
+
+// ------------------------------------------------------------
+// Head.tsx の </head> 直前に以下を追加してください:
+//
+//   <link rel="preconnect" href="https://fonts.googleapis.com" />
+//   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+//   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Zen+Kaku+Gothic+New:wght@400;500&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+// ------------------------------------------------------------
+
+
+// ============================================================
+// フォント変数
+// ============================================================
+
+:root {
+  --font-jp-body:    'Noto Sans JP', sans-serif;
+  --font-en-mono:    'DM Mono', monospace;
+  --font-jp-heading: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif;
+  --font-ui:         'Share Tech Mono', monospace; // ラベル・タグ・メタ専用
+}
+
+
+// ============================================================
+// 本文・基本タイポグラフィ
+// ============================================================
+
+body {
+  font-family: var(--font-jp-body);
+  font-size: 14px;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-jp-heading);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+h1 { font-size: 1.5rem;  letter-spacing: 0.05em; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1.05rem; }
+
+p, li, blockquote {
+  font-family: var(--font-jp-body);
+}
+
+
+// ============================================================
+// サイトタイトル・ナビゲーション
+// ============================================================
+
+.page-title {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+}
+
+header nav a,
+.nav-links a {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+}
+
+
+// ============================================================
+// サイドバー・Explorer
+// ============================================================
+
+.explorer-title,
+.folder-title {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.68rem;
+}
+
+.explorer-content li > a {
+  font-family: var(--font-jp-body);
+  font-size: 0.82rem;
+}
+
+// シェル風マーカー
+.explorer-content li > a::before {
+  content: "> ";
+  font-family: var(--font-en-mono);
+  opacity: 0.45;
+}
+
+
+// ============================================================
+// メタ情報（日付・更新日など）
+// ============================================================
+
+.content-meta,
+.meta,
+.article-meta {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+
+// ============================================================
+// タグ — 角丸なし・UIフォント
+// ============================================================
+
+.tags > li > a,
+a.tag-link {
+  font-family: var(--font-ui) !important;
+  border-radius: 2px !important;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  padding: 3px 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+:root[saved-theme="light"] {
+  .tags > li > a,
+  a.tag-link {
+    background: var(--lightgray);
+    color: var(--dark);
+    border-color: var(--gray);
+  }
+}
+
+:root[saved-theme="dark"] {
+  .tags > li > a,
+  a.tag-link {
+    background: #0a1520;
+    color: var(--secondary);
+    border-color: #1a3545;
+  }
+}
+
+
+// ============================================================
+// コードブロック — DM Mono
+// ============================================================
+
+pre, pre code {
+  font-family: var(--font-en-mono) !important;
+  font-size: 0.82rem;
+  line-height: 1.75;
+  border-radius: 2px !important;
+}
+
+pre {
+  border-width: 1px;
+  border-style: solid;
+}
+
+:root[saved-theme="light"] pre {
+  background: #c8cdd8 !important;
+  border-color: var(--gray);
+  color: #0d2a4a;
+}
+
+:root[saved-theme="dark"] pre {
+  background: #030408 !important;
+  border-color: #0a2030;
+  color: var(--secondary);
+}
+
+:not(pre) > code {
+  font-family: var(--font-en-mono) !important;
+  border-radius: 2px !important;
+  font-size: 0.83em;
+  padding: 1px 6px;
+}
+
+:root[saved-theme="light"] :not(pre) > code {
+  background: #d0d4dc;
+  color: #1a5276;
+}
+
+:root[saved-theme="dark"] :not(pre) > code {
+  background: #080e18;
+  color: #00b4d8;
+}
+
+
+// ============================================================
+// Callout
+// ============================================================
+
+.callout {
+  border-radius: 0 2px 2px 0 !important;
+  border-left-width: 3px;
+  font-family: var(--font-jp-body);
+  font-size: 0.85rem;
+  line-height: 1.85;
+}
+
+:root[saved-theme="light"] .callout { background: #d0d8e8; }
+:root[saved-theme="dark"]  .callout { background: #080e18; }
+
+
+// ============================================================
+// リンク
+// ============================================================
+
+a {
+  text-decoration: none;
+  transition: color 0.15s;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+
+// ============================================================
+// 区切り線
+// ============================================================
+
+hr {
+  border-style: solid;
+  opacity: 0.25;
+}
+
+
+// ============================================================
+// スクロールバー（Webkit系）
+// ============================================================
+
+::-webkit-scrollbar       { width: 4px; height: 4px; }
+
+:root[saved-theme="light"] ::-webkit-scrollbar-track  { background: #d0d4dc; }
+:root[saved-theme="light"] ::-webkit-scrollbar-thumb  { background: #8090a8; }
+
+:root[saved-theme="dark"]  ::-webkit-scrollbar-track  { background: #0e1420; }
+:root[saved-theme="dark"]  ::-webkit-scrollbar-thumb  { background: #1a3545; }
