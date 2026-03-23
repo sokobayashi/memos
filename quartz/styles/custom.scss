@@ -289,7 +289,21 @@ img, table {
   h2 { font-size: 1.1rem; }
 }
 
-// ページ読み込み時の自動スクロール防止
+
+// 画像の高さを事前に確保してレイアウトシフト防止
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// 目次のin-viewハイライトによるスクロール防止
+.toc-content a.in-view {
+  // ハイライトのスタイルはそのままで
+  scroll-margin-top: 0;
+}
+
+// ページ全体のスクロール挙動を即時に
 html {
   scroll-behavior: auto !important;
 }

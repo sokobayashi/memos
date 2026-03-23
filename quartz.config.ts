@@ -15,7 +15,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "MessingAbout  WithTechno",        // ← サイト名
     pageTitleSuffix: "",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     analytics: null,
     locale: "ja-JP",

@@ -1,4 +1,5 @@
 ---
+title: Kick Recipe 1
 tags:
   - softube
   - heartbeat
