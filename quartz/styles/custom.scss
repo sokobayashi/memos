@@ -296,14 +296,3 @@ article img {
   height: auto;
   display: block;
 }
-
-// 目次のin-viewハイライトによるスクロール防止
-.toc-content a.in-view {
-  // ハイライトのスタイルはそのままで
-  scroll-margin-top: 0;
-}
-
-// ページ全体のスクロール挙動を即時に
-html {
-  scroll-behavior: auto !important;
-}
