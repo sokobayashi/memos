@@ -288,3 +288,8 @@ img, table {
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.1rem; }
 }
+
+// ページ読み込み時の自動スクロール防止
+html {
+  scroll-behavior: auto !important;
+}
