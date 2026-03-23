@@ -1,5 +1,5 @@
 ---
-title: So Kobayashi Notes
+title: Loose Notes on Techno
 ---
 Each memo is written in Japanese, followed by English.
 
