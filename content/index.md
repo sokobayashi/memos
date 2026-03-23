@@ -1,6 +1,8 @@
 ---
 title: So Kobayashi Notes
 ---
+Each memo is written in Japanese, followed by English.
+
 ## ガイド
 ### 01_MusicProduction
 - 製作に関するメモ色々。音作りだったりプラグインとかの話。
