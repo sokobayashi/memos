@@ -13,7 +13,7 @@ import * as Plugin from "./quartz/plugins"
  
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "MessingAboutWithTechno",        // ← サイト名
+    pageTitle: "MessingAbout  WithTechno",        // ← サイト名
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
