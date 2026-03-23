@@ -3,6 +3,7 @@ title: MessingAboutWithTechno
 ---
 Each memo is written in Japanese, followed by English.
 
+---
 ## ガイド
 ### 01_MusicProduction
 - 製作に関するメモ色々。音作りだったりプラグインとかの話。
@@ -11,6 +12,7 @@ Each memo is written in Japanese, followed by English.
 ### 03_Essay
 - 個人的な話。非音楽ネタなどなど。
 
+---
 ## Guide
 
 ### 01_MusicProduction
