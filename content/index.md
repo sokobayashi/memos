@@ -1,5 +1,5 @@
 ---
-title: Loose Notes on Techno
+title: MessingAboutWithTechno
 ---
 Each memo is written in Japanese, followed by English.
 
