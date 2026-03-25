@@ -1,0 +1,29 @@
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 0.1rem 0 0.1rem;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  opacity: 0.78;
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease;
+}
+
+.social-links a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.social-links img {
+  display: block;
+  width: 18px;
+  height: 18px;
+}

@@ -126,7 +126,7 @@ tags:
 - If you want the wavefronts from the left and right speakers to line up properly, you need to eliminate unit-to-unit differences as much as possible. These parts need to be adjusted so both speakers speak with the same voice.  
   When someone with exceptional skill and experience does this, it is shocking how much more solid and focused the sound becomes, even if all they are doing is turning an L-shaped hex key.
 
-![[IMG_1682.jpeg|335]]![[IMG_1687.jpeg|335]]
+![[IMG_1682.jpeg|306]]![[IMG_1687.jpeg|307]]
 
 #### Fine-Tuning the Output
 
