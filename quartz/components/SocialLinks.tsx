@@ -1,5 +1,5 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import styles from "./styles/SocialLinks.scss"
+import styles from "./styles/socialLinks.scss"
 
 export default (() => {
   function SocialLinks(_props: QuartzComponentProps) {
