@@ -296,3 +296,21 @@ article img {
   height: auto;
   display: block;
 }
+
+@use "./variables.scss" as *;
+
+@media all and ($mobile) {
+  .explorer:not(.collapsed) > button.mobile-explorer {
+    position: fixed;
+    top: 0.8rem;
+    left: 0.8rem;
+    z-index: 102;
+    padding: 0.35rem;
+    background: var(--light);
+    border-radius: 0.4rem;
+  }
+
+  .explorer:not(.collapsed) > .explorer-content {
+    padding-top: 4.5rem;
+  }
+}
