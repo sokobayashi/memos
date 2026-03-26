@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // ============================================================
 // quartz/styles/custom.scss — Detroit Techno Theme (JP Edition)
@@ -296,8 +297,6 @@ article img {
   height: auto;
   display: block;
 }
-
-@use "./variables.scss" as *;
 
 @media all and ($mobile) {
   .explorer:not(.collapsed) > button.mobile-explorer {
