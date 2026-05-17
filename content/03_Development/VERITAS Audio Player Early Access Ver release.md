@@ -150,3 +150,163 @@ VERITASは、現時点では巨大な多機能プレーヤーを目指したア�
 
 **VERITAS - Honest Playback**  
 ぜひ、お試しください。
+
+---
+
+# VERITAS Early Access Has Been Released
+
+## VERITAS - Honest Playback
+
+![[VERITAS-screen.png]]
+
+VERITAS is a macOS audio player designed with playback quality as its highest priority.
+
+It is focused on browsing and playing audio files stored in local folders.  
+Rather than adding unnecessary features, VERITAS prioritizes playing audio as honestly, stably, and enjoyably as possible.
+
+It also supports a preference for exclusive output, allowing the app to choose the optimal playback path depending on your environment.
+
+VERITAS is planned for release on the App Store in the future, but before that, it is being made available as an Early Access version.  
+Those who purchase this Early Access version are planned to receive access to the future App Store version at no additional cost.
+
+A free trial version is also available. Although it has some functional limitations, the playback quality is the same as the full version.  
+Please try it in your own listening environment.
+
+The full version is available on STORES for ¥3,000.  
+https://veritas-software.stores.jp/
+
+![[Pasted image 20260517231143.png]]
+
+There are no regional restrictions as long as you can purchase through STORES, but VERITAS is primarily intended for users in Japan.
+
+---
+
+## Why I Started Developing VERITAS
+
+The reason I started building VERITAS was very simple.
+
+**I wanted a simple, high-quality audio player for local music playback on macOS.**
+
+Streaming services are extremely convenient. For many people, listening to music through Apple Music, Spotify, or YouTube has become part of everyday life.
+
+At the same time, one of the biggest risks of streaming is that once a work is removed by the provider, it may become impossible to listen to it again.
+
+Streaming also does not always offer the best possible sound quality.
+
+For these reasons, I felt that works I truly wanted to hear in good sound quality needed to be purchased on CD or as downloads and played locally.
+
+On macOS, Audirvana is very well known, and I also felt that its playback quality was excellent.  
+However, its usability did not suit me very well, so I eventually found myself listening mainly on Windows.
+
+I tried several other players as well, but I could not find a macOS environment that surpassed my Windows setup in terms of sound quality, so I had largely given up on macOS playback.
+
+Some time later, programming became much more accessible through AI, and I decided to try building my own player.
+
+---
+
+## Developed Together with Coding Agents
+
+From my past experience, I had an intuitive understanding that how audio is handled in the fully digital domain, before digital-to-analog conversion, is extremely important.
+
+With VERITAS, I took the knowledge and ideas I had about how sound quality might be improved in the digital domain, turned them into a design, and implemented them using Codex and Claude.
+
+Surprisingly, even the first early version sounded quite good. That gave me the feeling that my hypothesis was not entirely off the mark.
+
+Of course, it was far from complete. There were still suspicious behaviors to fix and many aspects of the interface to refine.
+
+And that was where the difficult part began.
+
+Add a feature, and the sound changes.  
+Polish the UI a little, and the sound gets worse.  
+Code that appears to have nothing to do with audio playback clearly affects playback quality.
+
+This happened again and again.
+
+I would add a feature, remove it, rethink the design and implementation, and try again.  
+That cycle repeated many times.
+
+---
+
+## For Sound Quality
+
+With VERITAS, the goal is not simply to make audio “play.”  
+The priority is to avoid unnecessary processing and load during playback as much as possible.
+
+I analyzed implementations that did not work well, researched best practices in audio programming, and used Deep Research to dig deeper into Core Audio design. Step by step, VERITAS moved closer to its current form.
+
+To be honest, I still cannot say that I have fully explained every causal relationship between code and sound quality.
+
+However, through development, I have gained a much clearer sense of what tends to cause problems and what kinds of design choices help preserve playback quality.
+
+VERITAS is a player born from that long process of trial and error.
+
+As a result, I believe its sound quality is among the very best standalone audio players currently available on macOS.
+
+---
+
+## About the Early Access Version
+
+This release is the Early Access version, made available before the App Store release.
+
+Even at this stage, VERITAS already includes the basic functionality needed to browse and play local audio files.  
+At the same time, there are still areas I would like to improve and features I would like to add.
+
+I would like people to use this version first, send feedback, and help shape further development and sound-quality improvements.
+
+Eventually, I plan to release a more complete version on the App Store.
+
+Those who purchase the Early Access version are planned to receive access to the App Store version at no additional cost.
+
+When the App Store version is released, paid-version purchasers will be contacted by email.
+
+---
+
+## System Requirements
+
+- Supported OS: macOS 15.5 or later
+- Supported CPU: Apple Silicon only
+- Supported Macs: Macs with M1 / M2 / M3 / M4
+- Intel Macs: Not supported
+
+VERITAS is an **Apple Silicon Mac-only** application.  
+It does not run on Intel Macs, so please be careful not to purchase it by mistake.
+
+To keep playback quality and the scope of testing clearly defined, VERITAS is limited to Apple Silicon Macs.
+
+---
+
+## Supported File Formats
+
+VERITAS supports the following file formats:
+
+- FLAC
+- MP3
+- AIFF / AIF
+- WAV
+- M4A
+- CAF
+- ALAC
+
+---
+
+## About the Free Trial Version
+
+A free trial version of VERITAS is available.
+
+The trial version has some functional limitations, but the playback quality is the same as the full version.  
+Please try VERITAS in your own Mac and audio environment.
+
+---
+
+## Closing
+
+At this stage, VERITAS is not trying to be a huge, feature-packed player.
+
+It is built around one simple idea:
+
+To play local audio files as honestly and faithfully as possible.
+
+If VERITAS can make your time listening to music even a little better, I would be very happy.
+
+**VERITAS - Honest Playback**  
+Please give it a try.
