@@ -285,6 +285,78 @@ img, table {
     font-size: 1rem;
   }
 
+  .left.sidebar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    align-content: flex-start !important;
+    column-gap: 0.75rem;
+    row-gap: 0.5rem;
+  }
+
+  .left.sidebar > * {
+    min-width: 0;
+  }
+
+  .left.sidebar > .page-title {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .left.sidebar > .spacer.mobile-only {
+    display: none !important;
+  }
+
+  .left.sidebar > .search.mobile-only,
+  .left.sidebar > .search {
+    flex: 1 1 12rem !important;
+    min-width: 0 !important;
+    width: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .left.sidebar > .darkmode.mobile-only,
+  .left.sidebar > .reader-mode.mobile-only {
+    flex: 0 0 auto !important;
+  }
+
+  .left.sidebar > .social-links,
+  .left.sidebar .social-links {
+    order: 10;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0.25rem 0 0.35rem 0 !important;
+    padding: 0 !important;
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0.9rem !important;
+    overflow: visible !important;
+  }
+
+  .left.sidebar > .social-links a,
+  .left.sidebar .social-links a {
+    flex: 0 0 auto;
+    display: inline-flex !important;
+  }
+
+  .left.sidebar > .social-links svg,
+  .left.sidebar .social-links svg {
+    display: block;
+  }
+
+  .left.sidebar > .explorer {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+
   // h1を小さく
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.1rem; }
