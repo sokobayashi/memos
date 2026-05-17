@@ -1,10 +1,10 @@
 ---
-title: VERITAS Audio Player Early Access版リリース
+title: VERITAS Audio Player Early Access Ver release
 tags:
   - VERITAS
   - AudioPlayer
 ---
-# VERITAS Early Access版をリリースします
+# VERITAS Early Access版をリリースしました
 
 ## VERITAS - Honest Playback
 
