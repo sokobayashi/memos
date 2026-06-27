@@ -4,7 +4,10 @@ tags:
   - VERITAS
   - AudioPlayer
 ---
+
 # VERITAS Early Access版をリリースしました
+
+[[VERITAS Version 1.5リリースしました]]
 
 ## VERITAS - Honest Playback
 
