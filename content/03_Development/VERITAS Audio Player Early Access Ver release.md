@@ -7,7 +7,7 @@ tags:
 
 # VERITAS Early Access版をリリースしました
 
-[[VERITAS Version 1.5リリースしました]]
+[[VERITAS Version 1.5 Release]]
 
 ## VERITAS - Honest Playback
 
