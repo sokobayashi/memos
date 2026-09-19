@@ -57,7 +57,7 @@ Exclusive Modeは、選択した機器とMacの状態で利用できる場合に
 
 ## サポート
 
-当面のお問い合わせは、[Xの @sketchsketch](https://x.com/sketchsketch) までお願いします。専用のサポート窓口は、Mac App Storeでの公開までに追加する予定です。
+お問い合わせは、[MessAboutWithTechnoのContactフォーム](https://messaboutwithtechno.wordpress.com/contact/)からお願いします。
 
 不具合についてお問い合わせいただく際は、次の情報があると状況を確認しやすくなります。
 
@@ -86,6 +86,8 @@ VERITASはmacOSのApp Sandbox内で動作し、ユーザーが選択したファ
 ## プライバシーについて
 
 VERITASは、ユーザーが選んだローカルファイルをmacOSの権限内で扱います。独自の広告・解析SDK、VERITASアカウント、音楽ファイルのアップロード機能はありません。購入と購入状態の確認にはAppleのStoreKitを使用します。
+
+詳細は、[[03_Development/VERITAS Privacy Policy|VERITAS プライバシーポリシー]]をご確認ください。
 
 ## よくある質問
 
@@ -158,7 +160,8 @@ Actual playback support depends on the file contents and the audio formats avail
 
 ## Support
 
-For initial support, contact [@sketchsketch on X](https://x.com/sketchsketch). A dedicated support contact will be added before the Mac App Store release.
+For initial support, please see below:
+For support, use the [MessAboutWithTechno contact form](https://messaboutwithtechno.wordpress.com/contact/).
 
 When reporting a problem, please include:
 
@@ -187,6 +190,8 @@ VERITAS runs inside the macOS App Sandbox and uses access granted to files and f
 ## Privacy
 
 VERITAS handles user-selected local files within macOS permission boundaries. It contains no independent advertising or analytics SDK, VERITAS account, or music-file upload feature. Apple StoreKit is used for purchase and purchase-state operations.
+
+For details, see the [[03_Development/VERITAS Privacy Policy|VERITAS Privacy Policy]].
 
 ## Frequently asked questions
 
