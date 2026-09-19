@@ -7,6 +7,7 @@ tags:
 
 # VERITAS Early Access版をリリースしました
 
+[[VERITAS App Store Release and Support|Mac App Store版の配信予定とサポート]]
 [[VERITAS Version 1.5 Release]]
 
 ## VERITAS - Honest Playback

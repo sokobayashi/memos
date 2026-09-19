@@ -6,6 +6,8 @@ tags:
 ---
 # VERITAS Version 1.5リリースしました
 
+[[VERITAS App Store Release and Support|Mac App Store版の配信予定とサポート]]
+
 VERITAS Version 1.5 をリリースしました。
 
 今回のアップデートでは、VERITAS のシンプルな再生体験はそのままに、プレイリスト機能、外部プレイリスト取り込み、再生時の快適さ、アクセス許可まわりの使い勝手をまとめて強化しました。  

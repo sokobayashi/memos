@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "ja-JP",
-    baseUrl: "your-domain.com",     // ← 自分のドメインに変更
+    baseUrl: "sokobayashi.github.io/memos",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
  
