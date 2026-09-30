@@ -1,8 +1,8 @@
 ---
-title: VERITAS Mac App Store版の配信予定とサポート
-description: macOS用オーディオプレーヤーVERITASのMac App Store版について、現在の公開状況、機能、対応環境、TrialとFull Version、サポート情報をまとめています。
+title: VERITAS Mac App Store版 リリースとサポート
+description: Mac App Storeで公開中のmacOS用オーディオプレーヤーVERITASについて、入手方法、機能、対応環境、TrialとFull Version、サポート情報をまとめています。
 date: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-30
 tags:
   - VERITAS
   - AudioPlayer
@@ -13,18 +13,20 @@ aliases:
   - VERITAS App Store
 ---
 
-# VERITAS Mac App Store版の配信予定とサポート
+# VERITAS Mac App Store版 リリースとサポート
 
-> [!info] 現在の状況（2026年9月19日）
-> Mac App Store配信用ビルドのアップロードは完了しています。現在は公開に向けた手続きと最終確認を進めています。公開日は未定です。
+> [!info] 公開状況（2026年9月30日）
+> VERITAS 1.5はMac App Storeで公開されています。[Mac App StoreでVERITASを表示](https://apps.apple.com/jp/app/veritas/id6768606874?mt=12)
 
 ![[VERITAS-App-Store-Player-2560x1600.png]]
+
+[VERITASをMac App Storeで見る](https://apps.apple.com/jp/app/veritas/id6768606874?mt=12)
 
 VERITASは、Macに保存した音楽ファイルをフォルダから選んで再生する、macOS用オーディオプレーヤーです。
 
 ストリーミングサービスの代わりではなく、手元のローカル音源を自分のフォルダ構成のまま聴くことを想定しています。現在見ているフォルダと再生中の音楽を別々に扱うため、再生を続けたまま別の場所を探せます。
 
-このページでは、Mac App Store版の公開状況と、利用時のサポート情報をまとめます。公開後も、対応環境や問い合わせ方法などを随時更新します。
+このページでは、Mac App Store版の入手方法と、利用時のサポート情報をまとめます。対応環境や問い合わせ方法などに変更があった場合は、随時更新します。
 
 ## Mac App Store版について
 
@@ -32,7 +34,7 @@ Mac App Store版は無料でダウンロードでき、起動から60分のTrial
 
 アプリ内の「VERITAS Full Version」を一度購入すると、時間制限と連続再生の制限が解除されます。サブスクリプションではありません。
 
-Early Access製品版をご購入済みの方には、Mac App Store版の利用方法を公開時に購入時のメールアドレスへ案内する予定です。
+Early Access製品版をご購入済みで、Mac App Store版への移行案内が必要な方は、下記のContactフォームからお問い合わせください。
 
 ## 主な機能
 
@@ -107,9 +109,9 @@ Macに保存したローカル音源を、フォルダから選んで再生す�
 
 いいえ。選択した出力機器やMacの状態によってはShared Modeへ切り替わります。VERITASは希望設定ではなく、実際に成立している状態を表示します。
 
-### 公開日はいつですか？
+### どこから入手できますか？
 
-現時点では未定です。公開を確認後、このページにMac App Storeへのリンクを追加します。
+[VERITASのMac App Storeページ](https://apps.apple.com/jp/app/veritas/id6768606874?mt=12)から入手できます。macOS 15.5以降が必要です。
 
 ## 関連ページ
 
@@ -118,24 +120,24 @@ Macに保存したローカル音源を、フォルダから選んで再生す�
 
 ---
 
-# VERITAS for the Mac App Store — Release Status and Support
+# VERITAS for the Mac App Store — Release and Support
 
-> [!info] Current status — September 19, 2026
-> The distribution build has been uploaded for the Mac App Store. Final checks and release procedures are still in progress. No public release date has been set.
+> [!info] Availability — September 30, 2026
+> VERITAS 1.5 is available on the Mac App Store. [View VERITAS on the Mac App Store](https://apps.apple.com/jp/app/veritas/id6768606874?mt=12)
 
 VERITAS is a macOS audio player for browsing and playing music files stored locally on your Mac.
 
 It is not a streaming service. It is intended for listeners who keep a local music library and prefer to browse it in its existing folder structure. Browsing and active playback are kept separate, so you can look elsewhere without replacing the music that is already playing.
 
-This page provides the current Mac App Store release status and initial support information. It will be updated as availability and support details change.
+This page provides the Mac App Store download link and support information. It will be updated when system requirements or support details change.
 
 ## Mac App Store version
 
-The Mac App Store version will be free to download and includes a 60-minute Trial playback session from app launch. When the Trial ends, new playback cannot be started and automatic advance to the next track is disabled.
+The Mac App Store version is free to download and includes a 60-minute Trial playback session from app launch. When the Trial ends, new playback cannot be started and automatic advance to the next track is disabled.
 
 A one-time, non-consumable “VERITAS Full Version” purchase removes the time and continuous-playback limits. It is not a subscription.
 
-People who have already purchased the Early Access full version are planned to receive instructions at their purchase email address when the Mac App Store version becomes available.
+If you purchased the Early Access full version and need migration information for the Mac App Store version, please use the contact form below.
 
 ## Main features
 
@@ -160,7 +162,6 @@ Actual playback support depends on the file contents and the audio formats avail
 
 ## Support
 
-For initial support, please see below:
 For support, use the [MessAboutWithTechno contact form](https://messaboutwithtechno.wordpress.com/contact/).
 
 When reporting a problem, please include:
@@ -211,9 +212,9 @@ No. It is a one-time, non-consumable in-app purchase.
 
 No. Availability depends on the selected output device and the current Mac state. VERITAS displays the effective state and falls back to Shared Mode when necessary.
 
-### When will the Mac App Store version be released?
+### Where can I download VERITAS?
 
-No release date has been set. A Mac App Store link will be added here after public availability is confirmed.
+[VERITAS is available on the Mac App Store](https://apps.apple.com/jp/app/veritas/id6768606874?mt=12). It requires macOS 15.5 or later.
 
 ## Related pages
 
