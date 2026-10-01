@@ -220,3 +220,4 @@ No. Availability depends on the selected output device and the current Mac state
 
 - [[VERITAS Version 1.5 Release|What changed in VERITAS Version 1.5]]
 - [[VERITAS Audio Player Early Access Ver release|About the VERITAS Early Access version]]
+
